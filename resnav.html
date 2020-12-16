@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="stylesheet" href="resnav.css">
+    <header>
+        <div class="toggle-btn" onclick="myfunction();">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="logo">
+
+            <h1>SOLO</h1>
+        </div>
+        <nav id="nav">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">GALLERY</a></li>
+                <li><a href="#">CONTAT US</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <script type="text/javascript">
+     function myfunction(){
+         var navbar = document.getElementById('nav')
+         navbar.classList.toggle('show');
+     }    
+    
+    </script>
+    
+</body>
+</html>
